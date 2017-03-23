@@ -1,0 +1,28 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    padding-bottom: 60px;
+    font-family: 'Ranga', cursive;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo.jpg { 
+    max-width: 70%;
+    height: auto;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:990px) 
+{
+    .logo.jpg {
+        display:none;
+    }
+}
+
+
+
